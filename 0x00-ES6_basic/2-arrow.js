@@ -1,4 +1,4 @@
-const getNeighborhoodsList = () => {
+export default function getNeighborhoodsList = () => {
     const self = this;
 
     this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
@@ -8,5 +8,3 @@ const getNeighborhoodsList = () => {
 	return this.sanFranciscoNeighborhoods;
     };
 };
-
-export default getNeighborhoodsList;
